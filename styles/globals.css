@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+ 
+
+@font-face {
+  font-family: 'SparkDigital123-Bold';
+  src: url('/fonts/SparkDigital123-Bold/SparkDigital123-Bold.eot');
+  src: url('/fonts/SparkDigital123-Bold/SparkDigital123-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/SparkDigital123-Bold/SparkDigital123-Bold.woff2'),
+      url('/fonts/SparkDigital123-Bold/SparkDigital123-Bold.woff') format('woff');  
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SparkDigital123-Regular';
+  src: url('/fonts/SparkDigital123-Regular/SparkDigital123-Regular.eot');
+  src: url('/fonts/SparkDigital123-Regular/SparkDigital123-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/SparkDigital123-Regular/SparkDigital123-Regular.woff2') format('woff2'),
+      url('/fonts/SparkDigital123-Regular/SparkDigital123-Regular.woff') format('woff');  
+  font-display: swap;
+}
+ 
+body {
+  background-color: #E6F0F7;
+  background-image: "radial-gradient(151.8% 317.3% at 80.67% 42.96%, rgba(0, 143, 224, 0) 0%, rgba(0, 143, 224, 0.0209563) 60.12%, rgba(0, 143, 224, 0.045) 100%), linear-gradient(311.43deg, rgba(230, 240, 248, 0.3) -10.91%, rgba(230, 242, 250, 0.15) 17.92%, rgba(155, 221, 251, 0.3) 87.24%)";
+  color: #3C5564;
+  font-family: "SparkDigital123-Regular";
+  font-weight: 100;
+ }
+ html {
+   scroll-behavior: smooth;
+ }
+ 
